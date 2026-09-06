@@ -90,6 +90,36 @@ table.info {
   border-collapse: collapse;
 }
 
+.app-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.app-card h3 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+}
+
+.app-card .app-status {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.app-card p {
+  margin: 8px 0 0;
+}
+
+.app-card table.info {
+  margin-top: 10px;
+}
+
 table.info th,
 table.info td {
   text-align: left;
